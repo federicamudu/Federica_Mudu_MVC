@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AcademyF.TestWeek7.Core\AcademyF.TestWeek7.Core.csproj" />
+    <ProjectReference Include="..\AcademyF.TestWeek7.RepositoryEF\AcademyF.TestWeek7.RepositoryEF.csproj" />
+  </ItemGroup>
+
+</Project>
